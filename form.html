@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css" />
+    <script>
+      function getUserData() {
+        // Ambil input dari user
+        var nama = prompt("Masukan nama anda:");
+        var npm = prompt("Masukan NPM anda:");
+
+        // Periksa jika input diisi
+        if (nama && npm) {
+          // Tampilkan di halaman
+          document.getElementById("nama").textContent = "Nama: " + nama;
+          document.getElementById("npm").textContent = "NPM: " + npm;
+        } else {
+          alert("Please fill both Nama and NPM!");
+        }
+      }
+    </script>
+  </head>
+  <body onload="getUserData()">
+    <div class="container">
+      <h1>ISI DATA DI BAWAH</h1>
+      <div class="result">
+        <p id="nama">Nama:</p>
+        <p id="npm">NPM:</p>
+      </div>
+      <button class="btn" onclick="getUserData()">ISI KEMBALI</button>
+    </div>
+  </body>
+</html>

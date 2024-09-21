@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0; /* Warna abu-abu terang */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333; /* Warna teks abu-abu gelap */
+}
+
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e8f5e9; /* Hijau sangat terang */
+  color: #1b5e20; /* Hijau gelap */
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+.result p {
+  margin: 10px 0;
+}
+
+h1 {
+  color: #1b5e20; /* Hijau gelap */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50; /* Hijau */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #388e3c; /* Hijau gelap saat hover */
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan kartu */
+  text-align: center;
+}
